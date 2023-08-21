@@ -1,0 +1,24 @@
+.popular-anime{
+    
+    display: flex;
+    flex-direction: row;
+}
+.popularanime_1{
+    padding-right: 0;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 2rem;
+    background-color: #fff;
+    border-top:5px solid #e5e7eb
+}
+a img{
+    width: 100%;
+    height: 100%;
+    object-fit: conver;
+    border-radius: 5px;
+}

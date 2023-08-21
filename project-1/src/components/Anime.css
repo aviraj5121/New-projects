@@ -1,0 +1,62 @@
+.box_1{
+    padding: 3rem 18rem;
+    background-color: #EDEDED;
+}
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease-in-out;
+}
+.title{
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease-in-out;
+}
+.description{
+    margin-top: 2rem ;
+    color: #6c7983;
+    line-height: 2rem;
+}
+.description button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color :#27AE60;
+    font-weight: 600;
+}
+.details{
+    background-color: #fff;
+    padding: 2rem;
+    border: 5px solid #e5e7eb;
+}
+.details .detail{
+    display: grid;
+    grid-template-columns: (2,1fr);
+}
+.details .detail img{
+    border-radius: 7px;
+}
+p{
+    display: flex;
+    gap:1rem;
+}
+p span:first-child{
+    font-weight: 800;
+}
+.trailer-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
