@@ -11,7 +11,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/Crud",{
 }).then(() => {
     console.log("Mongoose connected successfully");
   }).catch(err => {
-    console.error("Mongoose connection error:", err);
+    console.log("Mongoose connection error:", err);
   });
 const UserSchema = new mongoose.Schema({
     name:String,
