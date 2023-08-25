@@ -1,6 +1,7 @@
 import react,{useState,useEffect} from "react"
 import { useParams ,useNavigate } from "react-router-dom"
 import axios from "axios"
+import './update.css'
 function Update(){
 
     const navigate = useNavigate()
@@ -35,21 +36,18 @@ function Update(){
     }
     return(
         <>
-        <div>
+        <div id="login">
             <form onSubmit={update}>
-                <h1>Add User</h1>
-                <div>
-                    <label htmlFor="mb2">Name</label>
+                <h1>Update Data </h1>
+
+                    <label htmlFor="mb2">Movie Name</label>
                     <input type="text" placeholder="Your Name" className="createuser" value={name} onChange={(e) => setName(e.target.value)}/>
-                </div>
-                <div>
-                    <label htmlFor="mb2">Email</label>
-                    <input type="email" placeholder="Your Email" className="createuser" value={email}onChange={(e) => setEmail(e.target.value)}/>
-                </div>
-                <div>
-                    <label htmlFor="mb2">Name</label>
+
+                    <label htmlFor="mb2">type</label>
+                    <input type="text" placeholder="Your Name" className="createuser" value={email} onChange={(e) => setName(e.target.value)}/>
+
+                    <label htmlFor="mb2">Genre</label>
                     <input type="text" placeholder="Your Age" className="createuser"value={age} onChange={(e) => setAge(e.target.value)} />
-                </div>
                 <button>Update</button>
             </form>
         </div>

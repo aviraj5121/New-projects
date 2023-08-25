@@ -29,7 +29,7 @@ function Home(){
             >
                     {
                         popular.map(MOVIE=>(
-                            <Link style={{textDecoration:'none',color:'white'}}to={`/movies/${MOVIE.id}`}>
+                            <Link style={{textDecoration:'none',color:'white'}}to={`/movie/${MOVIE.id}`}>
                                 {console.log(MOVIE.original_title)}
                                 <div className="posterimage">
                                     <img src={`https://image.tmdb.org/t/p/original/${MOVIE &&MOVIE.backdrop_path}`}/>

@@ -1,7 +1,6 @@
-body {
-  background-color: rgb(0, 0, 0);
+body{
+  overflow-x: hidden;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
