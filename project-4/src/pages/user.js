@@ -61,7 +61,7 @@ function User() {
                                             <td>{user.email}</td>
                                             <td>{user.age}</td>
                                             <td className="btn">
-                                                <Link to={`/update/${user._id}`} className="button-52" style={{textDecoration:'none',color:'white'}}>Update</Link>
+                                                <Link to={`/update/${user._id}`} className="button-52" style={{textDecoration:'none',color:'black'}}>Update</Link>
                                                 <button onClick={(e) => del(user._id)} className="button-52" >Delete</button>
                                                 <button onClick={() => toggleOverline(user._id)} className="button-52">Done</button>
                                             </td>

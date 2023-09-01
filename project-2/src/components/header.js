@@ -27,7 +27,7 @@ function Header(){
             const response = await fetch(url, options);
             const data = await response.json();
             
-            const formattedOptions = data.results.slice(0, 10).map(movie => ({
+            const formattedOptions = data.results.slice(0, 20).map(movie => ({
                 value: movie.id,
                 label: movie.title,
                 // You can include additional properties like "poster_path" here if needed
