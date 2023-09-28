@@ -1,0 +1,58 @@
+
+
+.mainpart{
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+.headerpart {
+  background-color: wheat;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.logo{
+  font-weight: bold;
+}
+.links{
+  display: flex;
+  gap: 20px;
+}
+
+
+/* main post wroks  */
+.image{
+max-width: 100%;
+}
+.post{
+      display: grid;
+      grid-template-columns: 0.8fr 1.5fr;
+      gap: 20px;
+      margin-bottom: 30px;
+
+}
+.images{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: black 10px;
+
+}
+.headings{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.info{
+  margin: 5px 0px;
+  color: #888889;
+  font-size: .7rem;
+  font-weight: bold;
+}
+.summary{
+  margin:1px 0px;
+  line-height: 1.4rem;
+}

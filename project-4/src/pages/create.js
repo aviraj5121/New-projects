@@ -23,7 +23,6 @@ function Createuser(){
     }   
     return(
         <div id="login">
-                           
             <form>
                     <h1>Add Movie</h1>
                     <label htmlFor="mb2">Movie Name</label>
