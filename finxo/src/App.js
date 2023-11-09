@@ -1,16 +1,15 @@
-import Home from "./prallex";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Feature from "./Header and body/Feature";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import  Footer from './footer/footer'
+import Player from "./assest/Player";
+import "./App.css";
+
 
 function App() {
-  return (
+
+  return(
+
     <>
-      <Home />
-      <Feature />
+      <Player  />
     </>
-  );
+  )
 }
 
 export default App;

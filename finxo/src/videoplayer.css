@@ -1,0 +1,43 @@
+.video-container{
+    max-width: 500px;
+    margin:0 auto;
+}
+.video-player{
+    width: 100%;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.control-button{
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: skyblue;
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.progress-bar-container{
+    margin-top: 10px;
+}
+.progress-bar{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    border-radius: 4px;
+}
+.progress-bar-fill{
+    height: 100%;
+    background-color: skyblue;
+    border-radius: 4px;
+
+}
+.time-indicator{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #5555;
+}
